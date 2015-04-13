@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>compressor</SubtypeId>
+			</Id>
+			<DisplayName>Compressor</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\Assembler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="350" />
+				<Component Subtype="Construction" Count="120" />
+				<Component Subtype="SmallTube" Count="50" />
+				<Component Subtype="Motor" Count="25" />
+				<Component Subtype="Display" Count="10" />
+				<Component Subtype="Computer" Count="200" />
+				<Component Subtype="SteelPlate" Count="100" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>Compressor</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
+			<InventoryMaxVolume>1</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.9</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>Compression</Class>
+			</BlueprintClasses>
+		</Definition>
+		<Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>assemblerT1</SubtypeId>
+			</Id>
+			<DisplayName>T1 Assembler</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2" />
+			<ModelOffset x="0" y="0" z="0" />
+			<Model>Models\Cubes\Large\Assembler.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="260" />
+				<Component Subtype="Construction" Count="80" />
+				<Component Subtype="SmallTube" Count="24" />
+				<Component Subtype="Motor" Count="16" />
+				<Component Subtype="Display" Count="8" />
+				<Component Subtype="Computer" Count="160" />
+				<Component Subtype="SteelPlate" Count="40" />
+			</Components>
+			<CriticalComponent Subtype="Computer" Index="0" />
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\AssemblerConstruction_1.mwm" />
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AssemblerConstruction_2.mwm" />
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AssemblerConstruction_3.mwm" />
+				<Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
+			</BuildProgressModels>
+			<BlockPairName>T1 Assembler</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>120</BuildTimeSeconds>
+			<InventoryMaxVolume>1</InventoryMaxVolume>
+			<InventorySize>
+				<X>1</X>
+				<Y>1</Y>
+				<Z>1</Z>
+			</InventorySize>
+			<StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+			<OperationalPowerConsumption>0.9</OperationalPowerConsumption>
+			<BlueprintClasses>
+				<Class>LargeBlocks</Class>
+				<Class>SmallBlocks</Class>
+				<Class>Components</Class>
+				<Class>Tools</Class>
+				<Class>T1Components</Class>
+				<Class>T1LargeBlocks</Class>
+				<Class>T1SmallBlocks</Class>
+			</BlueprintClasses>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

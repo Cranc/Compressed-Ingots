@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClasses>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>Compression</SubtypeId>
+			</Id>
+			<DisplayName>Compression</DisplayName>
+			<Icon>Textures\GUI\Icons\Buttons\component.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\Buttons\component_highlight.dds</HighlightIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		<Class>
+			<Id>
+				<TypeId>BlueprintClassDefinition</TypeId>
+				<SubtypeId>T1Components</SubtypeId>
+			</Id>
+			<DisplayName>Tier 1 Components</DisplayName>
+			<Icon>Textures\GUI\Icons\Buttons\component.dds</Icon>
+			<HighlightIcon>Textures\GUI\Icons\Buttons\component_highlight.dds</HighlightIcon>
+			<InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+			<OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+		</Class>
+		
+	</BlueprintClasses>
+	<BlueprintClassEntries>
+		<Entry Class="Compression" BlueprintSubtypeId="compressStoneT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressCobaltT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressGoldT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressIronT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressMagnesiumT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressNickelT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressPlatinumT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressSiliconT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressSilverT1" />
+		<Entry Class="Compression" BlueprintSubtypeId="compressUraniumT1" />
+		
+		<Entry Class="T1Components" BlueprintSubtypeId="BulletproofGlassT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="ComputerComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="DetectorComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="DisplayT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="ExplosivesComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="GirderComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="GravityGeneratorComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="InteriorPlateT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="LargeTubeT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="MedicalComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="MetalGridT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="Missile200mmT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="MotorComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="NATO_25x184mmMagazineT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="NATO_5p56x45mmMagazineT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="PowerCellT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="RadioCommunicationComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="ReactorComponentT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="SmallTubeT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="SolarCellT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="SteelPlateT1" />
+		<Entry Class="T1Components" BlueprintSubtypeId="ThrustComponentT1" />
+		
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Assembler/compressor" />
+	</BlueprintClassEntries>
+</Definitions>

@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<!--           Tier 1 Compression                -->
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressStoneT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Gravel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedStoneT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressCobaltT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Cobalt</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\cobalt_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedCobaltT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressGoldT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Gold</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\gold_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Gold" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedGoldT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressIronT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Iron</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressMagnesiumT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Magnesium Powder</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\magnesium_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedMagnesiumT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressNickelT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Nickel</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\nickel_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedNickelT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressPlatinumT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Platinum</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\platinum_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Platinum" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedPlatinumT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressSiliconT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Silicon</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\silicon_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressSilverT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Silver</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\silver_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Silver" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedSilverT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>compressUraniumT1</SubtypeId>
+			</Id>
+			<DisplayName>Compressed Uranium</DisplayName>
+			<Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedUraniumT1" />
+			</Results>
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+
+		<!-- Tier 1 Components  -->
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>BulletproofGlassT1</SubtypeId>
+			</Id>
+			<DisplayName>10x BulletproofGlass</DisplayName>
+			<Icon>Textures\GUI\Icons\component\bulletproof_glass_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="15" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="BulletproofGlass" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ComputerComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Computer Component</DisplayName>
+			<Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+				<Item Amount="0.1" TypeId="Ingot" SubtypeId="CompressedGoldT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Computer" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>DetectorComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Detector Component</DisplayName>
+			<Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="5" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="CompressedPlatinumT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Detector" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>DisplayT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Display</DisplayName>
+			<Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="3" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="3" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="CompressedGoldT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Display" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ExplosivesComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Explosives</DisplayName>
+			<Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+			<Prerequisites>
+				<Item Amount="0.5" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+				<Item Amount="2.0" TypeId="Ingot" SubtypeId="CompressedMagnesiumT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Explosives" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GirderComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Girder</DisplayName>
+			<Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="7" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Girder" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>GravityGeneratorComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
+			<Icon>Textures\GUI\Icons\component\gravity_generator_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="600" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="220" TypeId="Ingot" SubtypeId="CompressedCobaltT1" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="CompressedGoldT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="GravityGenerator" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>InteriorPlateT1</SubtypeId>
+			</Id>
+			<DisplayName>10x InteriorPlate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="3.5" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="InteriorPlate" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>LargeTubeT1</SubtypeId>
+			</Id>
+			<DisplayName>10x LargeSteelTube</DisplayName>
+			<Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="30" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="LargeTube" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>MedicalComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+			<Icon>Textures\GUI\Icons\component\medical_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="80" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="70" TypeId="Ingot" SubtypeId="CompressedNickelT1" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="CompressedSilverT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Medical" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>MetalGridT1</SubtypeId>
+			</Id>
+			<DisplayName>10x MetalGrid</DisplayName>
+			<Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="7" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="MetalGrid" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>Missile200mmT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Missile200mm</DisplayName>
+			<Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+			<Prerequisites>
+				<Item Amount="55" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="7" TypeId="Ingot" SubtypeId="CompressedNickelT1" />
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+				<Item Amount="0.1" TypeId="Ingot" SubtypeId="CompressedUraniumT1" />
+				<Item Amount="0.04" TypeId="Ingot" SubtypeId="CompressedPlatinumT1" />
+				<Item Amount="1.2" TypeId="Ingot" SubtypeId="CompressedMagnesiumT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>MotorComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Motor</DisplayName>
+			<Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="17" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="CompressedNickelT1" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="CompressedCobaltT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Motor" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>NATO_25x184mmMagazineT1</SubtypeId>
+			</Id>
+			<DisplayName>10x 25x184mm NATO ammo container</DisplayName>
+			<Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+			<Prerequisites>
+				<Item Amount="40" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="CompressedNickelT1" />
+				<Item Amount="3.5" TypeId="Ingot" SubtypeId="CompressedMagnesiumT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>NATO_5p56x45mmMagazineT1</SubtypeId>
+			</Id>
+			<DisplayName>10x 5.56x45mm NATO magazine</DisplayName>
+			<Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+			<Prerequisites>
+				<Item Amount="0.8" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="CompressedNickelT1" />
+				<Item Amount="0.2" TypeId="Ingot" SubtypeId="CompressedMagnesiumT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>PowerCellT1</SubtypeId>
+			</Id>
+			<DisplayName>10x PowerCell</DisplayName>
+			<Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+			<Prerequisites>
+				<Item Amount="12.0" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="3.0" TypeId="Ingot" SubtypeId="CompressedNickelT1" />
+				<Item Amount="11.0" TypeId="Ingot" SubtypeId="CompressedCobaltT1" />
+				<Item Amount="0.5" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="PowerCell" />
+			<BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>RadioCommunicationComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Radio-communication Components</DisplayName>
+			<Icon>Textures\GUI\Icons\component\radio_communication_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="8" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="0.5" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="RadioCommunication" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ReactorComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Reactor Components</DisplayName>
+			<Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="15" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="CompressedStoneT1" />
+				<Item Amount="5" TypeId="Ingot" SubtypeId="CompressedSilverT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Reactor" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>SmallTubeT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Small Steel Tube</DisplayName>
+			<Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="5" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="SmallTube" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>SolarCellT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Solar Cell</DisplayName>
+			<Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+			<Prerequisites>
+				<Item Amount="0.3" TypeId="Ingot" SubtypeId="CompressedGoldT1" />
+				<Item Amount="12" TypeId="Ingot" SubtypeId="CompressedSiliconT1" />
+				<Item Amount="0.05" TypeId="Ingot" SubtypeId="CompressedPlatinumT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="SolarCell" />
+			<BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>SteelPlateT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Steel Plate</DisplayName>
+			<Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="22" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="SteelPlate" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>ThrustComponentT1</SubtypeId>
+			</Id>
+			<DisplayName>10x Thrust Components</DisplayName>
+			<Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="30" TypeId="Ingot" SubtypeId="CompressedIronT1" />
+				<Item Amount="10" TypeId="Ingot" SubtypeId="CompressedCobaltT1" />
+				<Item Amount="1" TypeId="Ingot" SubtypeId="CompressedGoldT1" />
+				<Item Amount="0.4" TypeId="Ingot" SubtypeId="CompressedPlatinumT1" />
+			</Prerequisites>
+			<Result Amount="10" TypeId="Component" SubtypeId="Thrust" />
+			<BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<!-- My Components T1-->
+	</Blueprints>
+</Definitions>
